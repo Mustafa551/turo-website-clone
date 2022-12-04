@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import {App, Head2, Pooster} from './App.jsx';
+import {App, Body1, Head2, Pooster} from './App.jsx';
 import reportWebVitals from './reportWebVitals';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -10,6 +11,8 @@ root.render(
     <App />
     <Head2/>
     <Pooster/>
+    <Body1/>
+    
   </React.StrictMode>
 );
 
